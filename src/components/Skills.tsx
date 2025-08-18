@@ -25,7 +25,7 @@ const Skills = () => {
 
   useEffect(() => {
     const runAnimation = async () => {
-      await animateString("My Skil", setGeneralInfoHeader, 100);
+      await animateString("My Skills", setGeneralInfoHeader, 100);
     };
     runAnimation();
   }, []);
