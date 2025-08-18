@@ -1,0 +1,18 @@
+{
+    "IS_OFFERS_AVAILABLE": true,
+
+    "SKILLSPROGRESS": {
+        "Python": 60,
+        "C#": 40,
+        "Luau": 80,
+        "JS": 70,
+        "TS": 30,
+
+        "HTML": 100,
+        "CSS": 90,
+        "React": 70,
+        "Angular": 0,
+
+        "Cryptography": 0
+    }
+}
