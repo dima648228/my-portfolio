@@ -62,30 +62,30 @@ const About = () => {
 
             <div className="right-block">
                 <p style={{fontSize:'50px'}}>{generalInfoHeader}</p>
-                <p className="list-item"><strong>Age:</strong> 16</p>
+                <p className="list-item"><strong>Age:</strong> <span className="about-span">16</span></p>
 
-                <p className="list-item"><strong>Living In:</strong> <span className="gradient-country">Ukraine</span> | GMT+3 | <span className="gradient-time">{currentTime ? currentTime : "Loading..."}</span></p>
+                <p className="list-item"><strong>Living In:</strong> <span className="gradient-country about-span">Ukraine</span> | GMT+3 | <span className="gradient-time about-span">{currentTime ? currentTime : "Loading..."}</span></p>
                 
-                <p className="list-item"><strong>Experience:</strong> Game/Bot/Web Development</p>
-                <p className="list-item"><strong>Email:</strong> vysnakd5@gmail.com</p>
-                <p className="list-item"><strong>Offers:</strong> <span style={{ color: `rgba(${getStateColor().join(',')})` }}>{getStateText()}</span></p>
+                <p className="list-item"><strong>Experience:</strong> <span className="about-span">Game/Bot/Web Development</span></p>
+                <p className="list-item"><strong>Email:</strong> <span className="about-span">vysnakd5@gmail.com</span></p>
+                <p className="list-item"><strong>Offers:</strong> <span className="about-span" style={{ color: `rgba(${getStateColor().join(',')})` }}>{getStateText()}</span></p>
             </div>
           </div>
 
           <div className="bottom-block">
             <div className="sub-block">
                 <h1>GameDev Experience</h1>
-                <p style={{fontSize:'20px'}}>{text_data.experience.gamedev}</p>
+                <p className="about-span" style={{fontSize:'20px'}}>{text_data.experience.gamedev}</p>
             </div>
 
             <div className="sub-block">
                 <h1>WebDev Experience</h1>
-                <p style={{fontSize:'20px'}}>{text_data.experience.web}</p>
+                <p className="about-span" style={{fontSize:'20px'}}>{text_data.experience.web}</p>
             </div>
 
             <div className="sub-block">
                 <h1>Other Experience</h1>
-                <p style={{fontSize:'20px'}}>{text_data.experience.other}</p>
+                <p className="about-span" style={{fontSize:'20px'}}>{text_data.experience.other}</p>
             </div>
         </div>
     </div>

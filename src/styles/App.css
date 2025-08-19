@@ -114,7 +114,8 @@ body {
 .avatar-wrapper {
   padding: 2px;
   border-radius: 15%;
-  background: linear-gradient(135deg, #259e1e, #1b5ffd, #ca1414);
+  background: linear-gradient(135deg, #ffcc00, #fff700, #ffe259, #ffb347);
+
   background-size: 300% 300%;
   display: inline-flex;
   animation: borderGradient 6s ease infinite;
@@ -126,6 +127,10 @@ body {
   border-radius: 15%;
   object-fit: cover;
   display: block;
+}
+
+.about-span {
+    font-style: italic;
 }
 
 .right-block {
@@ -162,7 +167,6 @@ body {
     position: relative;
     padding-left: 1.5rem;
     margin-bottom: 0.5rem;
-    font-style: italic;
 }
 
 .list-item::before {
