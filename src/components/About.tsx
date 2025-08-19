@@ -61,14 +61,17 @@ const About = () => {
             </div>
 
             <div className="right-block">
-                <p style={{fontSize:'50px'}}>{generalInfoHeader}</p>
+                <p style={{ fontSize: '50px' }}>
+                    {generalInfoHeader}
+                </p>
+
                 <p className="list-item"><strong>Age:</strong> <span className="about-span">16</span></p>
 
                 <p className="list-item"><strong>Living In:</strong> <span className="gradient-country about-span">Ukraine</span> | GMT+3 | <span className="gradient-time about-span">{currentTime ? currentTime : "Loading..."}</span></p>
                 
                 <p className="list-item"><strong>Experience:</strong> <span className="about-span">Game/Bot/Web Development</span></p>
                 <p className="list-item"><strong>Email:</strong> <span className="about-span">vysnakd5@gmail.com</span></p>
-                <p className="list-item"><strong>Offers:</strong> <span className="about-span" style={{ color: `rgba(${getStateColor().join(',')})` }}>{getStateText()}</span></p>
+                <p className="list-item"><strong>Offers:</strong> <span className="about-span offer-status" style={{ color: `rgba(${getStateColor().join(',')})` }}>{getStateText()}</span></p>
             </div>
           </div>
 
