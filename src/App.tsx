@@ -4,6 +4,7 @@ import Navigator from './components/Navigator';
 import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
+import Projects from './components/Projects'
 
 import './styles/null.css';
 
@@ -18,6 +19,8 @@ function App() {
         return <About />;
       case 'Skills':
         return <Skills />;
+      case 'Projects':
+        return <Projects />;
       default:
         return <Home />;
     }

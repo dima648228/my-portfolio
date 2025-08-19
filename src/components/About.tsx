@@ -73,6 +73,12 @@ const About = () => {
                 <p className="list-item"><strong>Email:</strong> <span className="about-span">vysnakd5@gmail.com</span></p>
                 <p className="list-item"><strong>Offers:</strong> <span className="about-span offer-status" style={{ color: `rgba(${getStateColor().join(',')})` }}>{getStateText()}</span></p>
             </div>
+
+            <div className="bio-block">
+                <p className="about-span" style={{ fontSize: '20px' }}>
+                  {text_data.bio}
+                </p>
+            </div>
           </div>
 
           <div className="bottom-block">

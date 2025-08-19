@@ -7,7 +7,7 @@ interface NavigatorProps {
 }
 
 const Navigator: React.FC<NavigatorProps> = ({ active, setActive }) => {
-  const items = ['Home', 'About', 'Skills'];
+  const items = ['Home', 'About', 'Skills', 'Projects'];
 
   return (
     <nav className="navigator">
