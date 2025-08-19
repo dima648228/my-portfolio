@@ -20,6 +20,7 @@ const Skills = () => {
   const [cssProgress, setCSSProgress] = useState(0);
   const [reactProgress, setReactProgress] = useState(0);
   const [angularProgress, setAngularProgress] = useState(0);
+  const [aspCoreProgress, setAspCoreProgress] = useState(0)
 
   const [cryptographyProgress, setCryptographyProgress] = useState(0);
 
@@ -41,6 +42,7 @@ const Skills = () => {
     setCSSProgress(config.SKILLSPROGRESS.CSS)
     setReactProgress(config.SKILLSPROGRESS.React)
     setAngularProgress(config.SKILLSPROGRESS.Angular)
+    setAspCoreProgress(config.SKILLSPROGRESS.ASPNETCORE)
 
     setCryptographyProgress(config.SKILLSPROGRESS.Cryptography)
   }, []);
@@ -64,6 +66,7 @@ const Skills = () => {
               <SkillItem skillName="CSS" progress={cssProgress}/>
               <SkillItem skillName="React" progress={reactProgress}/>
               <SkillItem skillName="Angular [SOON]" progress={angularProgress}/>
+              <SkillItem skillName="ASP .NET Core" progress={aspCoreProgress}/>
             </div>
 
             <div className="skills-items-container">
