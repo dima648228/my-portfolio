@@ -10,18 +10,18 @@ const Skills = () => {
   const [generalInfoHeader, setGeneralInfoHeader] = useState(""); // My Skills
 
   // Technology progress
-  const [pythonProgress, setPythonProgress] = useState(100);
-  const [csharpProgress, setcsharpProgress] = useState(100);
-  const [luauProgress, setLuauProgress] = useState(100);
-  const [jsProgress, setJSProgress] = useState(100);
-  const [tsProgress, setTSProgress] = useState(100);
+  const [pythonProgress, setPythonProgress] = useState(0);
+  const [csharpProgress, setcsharpProgress] = useState(0);
+  const [luauProgress, setLuauProgress] = useState(0);
+  const [jsProgress, setJSProgress] = useState(0);
+  const [tsProgress, setTSProgress] = useState(0);
 
-  const [htmlProgress, setHTMLProgress] = useState(100);
-  const [cssProgress, setCSSProgress] = useState(100);
-  const [reactProgress, setReactProgress] = useState(100);
-  const [angularProgress, setAngularProgress] = useState(100);
+  const [htmlProgress, setHTMLProgress] = useState(0);
+  const [cssProgress, setCSSProgress] = useState(0);
+  const [reactProgress, setReactProgress] = useState(0);
+  const [angularProgress, setAngularProgress] = useState(0);
 
-  const [cryptographyProgress, setCryptographyProgress] = useState(100);
+  const [cryptographyProgress, setCryptographyProgress] = useState(0);
 
   useEffect(() => {
     const runAnimation = async () => {
