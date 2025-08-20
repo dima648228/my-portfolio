@@ -1,7 +1,7 @@
 {
     "experience": {
-        "gamedev": "I have two years of experience with UnityEngine. I also created my own OpenGL engine and developed a game using it. However, I have the most experience with Roblox Studio, where I can create almost anything using my Luau expertise. I have also completed my own project, Base Guardians, demonstrating my ability to handle complex projects.",
-        "web": "I have strong knowledge of web development, specializing in the React library to build responsive and dynamic websites. I prefer backend development but am also proficient in frontend development.",
+        "gamedev": "I have two years of experience with UnityEngine. I also created my own OpenGL engine and developed a game using it. However, I have the most experience with Roblox Studio, where I can create almost anything using my Luau expertise. I have also completed my own project, Base Guardians, demonstrating my ability to handle complex projects. I prefer backend development, especially when it comes to Roblox.",
+        "web": "I have strong knowledge of web development, specializing in the React library to build responsive and dynamic websites. I prefer frontend development but am also proficient in backend development.",
         "other": "Proficient in various programming paradigms, focusing on creating efficient and scalable solutions across multiple domains. Developed a custom programming language, Evolve, which supports numerous features."
     },
     "bio": "I've started my programming journey 4 years ago. My first language was JS. Even then, I decided that I wanted to devote my entire life to this cause. Over the years, I learned more and more, studied day and night, and was constantly amazed by all sorts of things. At the moment, I am actively trying to fill in the gaps in my knowledge, developing more and more in this area."
