@@ -19,7 +19,7 @@ const Skills = () => {
   const [htmlProgress, setHTMLProgress] = useState(0);
   const [cssProgress, setCSSProgress] = useState(0);
   const [reactProgress, setReactProgress] = useState(0);
-  const [angularProgress, setAngularProgress] = useState(0);
+  const [nextJSProgress, setNextJSProgress] = useState(0);
   const [nodeJSProgress, setNodeJSProgress] = useState(0)
 
   const [cryptographyProgress, setCryptographyProgress] = useState(0);
@@ -41,7 +41,7 @@ const Skills = () => {
     setHTMLProgress(config.SKILLSPROGRESS.HTML)
     setCSSProgress(config.SKILLSPROGRESS.CSS)
     setReactProgress(config.SKILLSPROGRESS.React)
-    setAngularProgress(config.SKILLSPROGRESS.Angular)
+    setNextJSProgress(config.SKILLSPROGRESS.nextJS)
     setNodeJSProgress(config.SKILLSPROGRESS.nodeJS)
 
     setCryptographyProgress(config.SKILLSPROGRESS.Cryptography)
@@ -65,8 +65,8 @@ const Skills = () => {
               <SkillItem skillName="HTML" progress={htmlProgress}/>
               <SkillItem skillName="CSS" progress={cssProgress}/>
               <SkillItem skillName="React" progress={reactProgress}/>
-              <SkillItem skillName="Angular [SOON]" progress={angularProgress}/>
-              <SkillItem skillName="Node JS" progress={nodeJSProgress}/>
+              <SkillItem skillName="Next.js" progress={nextJSProgress}/>
+              <SkillItem skillName="Node.js" progress={nodeJSProgress}/>
             </div>
 
             <div className="skills-items-container">
